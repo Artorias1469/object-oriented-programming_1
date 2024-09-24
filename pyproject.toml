@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "egor"
+version = "24.8.0"
+description = "The uncompromising code formatter."
+authors = ["Artorias1469 <pupas5676@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+
+[tool.poetry.group.dev.dependencies]
+yes = "^0.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
